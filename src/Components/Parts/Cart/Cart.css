@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.wholecart {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 0 15rem 0;
+ 
+}
+
+.cartname {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.caritembrand {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.caritemprice {
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cariteminstock {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.caritemname {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fullcart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartright {
+    display: flex;
+}
+
+.cartimage img {
+    height: 300px;
+    width: 200px;
+    border-radius: 0px;
+
+}
+
+.quantity {
+    padding-right: 1rem;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1D1F22;
+}
+
+.quantity p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.qchange {
+
+    border: 2px solid #060606;
+    width: 45px;
+
+}
+
+.tax {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tax span {
+
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.totalquantity {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.totalquantity span {
+
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+
+.totalprice {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+
+
+}
+
+.totalprice span {
+    padding-left: 2.5rem;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+.swatchrect {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border: .001px solid rgba(0, 0, 0, 0.652);
+}
+.size{
+    display: flex;
+}
+.sizecont{
+    padding-right: .4rem;
+}
+.sizecont button {
+    box-sizing: border-box;
+    background: transparent;
+    width: 63px;
+    height: 45px;
+    border: 1px solid #1D1F22;
+}
+.arrow{
+    max-width: 40px;
+    max-height: 40px;
+    float: right;
+    padding:0 .4rem 0 0; 
+      transform: translateY(-150%);
+      cursor: pointer;
+}
+.btnorder{
+    cursor: pointer;
+    width: 22%;;
+    min-height: 40px;
+    color: #fff;
+    background: #5ECE7B;
+    border: none;
+}
+

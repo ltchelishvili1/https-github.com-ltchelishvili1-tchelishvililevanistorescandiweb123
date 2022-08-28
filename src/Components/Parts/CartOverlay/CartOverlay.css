@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.shcart {
+    position: fixed;
+    right: 4rem;
+    background-color: #ffff;
+    padding: 1rem;
+    transform: scaleX(0.8);
+    z-index: 101;
+    max-height: 600px;
+    overflow: auto;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    gap: 1rem;
+    
+
+}
+.btn1{
+    font-weight: 600;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    border: 2px solid #1D1F22;
+    background: transparent;
+    cursor: pointer;
+}
+.btn11{
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    color: #ffff;
+    border: none;
+    background: #5ECE7B;
+    cursor: pointer;
+}
+
+.mid-part {
+    zoom: 0.7;
+
+}
+
+.totprice {
+    font-weight: 1000;
+}
+
+.cartleft1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
