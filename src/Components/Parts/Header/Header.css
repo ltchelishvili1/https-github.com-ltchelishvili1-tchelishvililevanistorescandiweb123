@@ -10,7 +10,9 @@
     transform: translateX(1000%);
 }
 
-
+.mainCont{
+    zoom: 1.5;
+}
 
 .middle {
     cursor: pointer;
@@ -72,7 +74,8 @@
 }
 
 .catName {
-    margin-left: 9rem;
+  
+    padding: 2rem 0 2rem 10rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 42px;

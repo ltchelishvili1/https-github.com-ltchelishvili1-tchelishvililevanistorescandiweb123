@@ -43,7 +43,7 @@
 .cardleft{
 transform: translateY(-5%);
 padding-left:  6rem;
-   
+   zoom: 1.5;
    
 }
 

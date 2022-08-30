@@ -5,6 +5,7 @@
 }
 
 .shcart {
+    zoom: 2;
     position: fixed;
     right: 4rem;
     background-color: #ffff;

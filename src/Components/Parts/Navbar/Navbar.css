@@ -8,6 +8,7 @@
     align-items: center;
     background-color: #ffff;
     padding: 1rem 0;
+    zoom: 1.5;
 }
 
 .navbar-left-content {
