@@ -14,7 +14,6 @@ import {
 import Header from './Components/Parts/Header/Header';
 import Cart from './Components/Parts/Cart/Cart';
 import CartOverlay from './Components/Parts/CartOverlay/CartOverlay';
-import Test from './Test';
 import Card from './Components/Parts/Card/Card'
 const getBooks = gql`
 {
